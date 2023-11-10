@@ -12,7 +12,7 @@ sidebar {
   }
 }
 @media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-article > * { 
+article * { 
 	width: calc(100% - 40px); 
 }
 }
@@ -20,7 +20,7 @@ article > * {
 body { 
 	min-width: 320px; 
 }
-article > * { 
+article * { 
 	width: calc(100% - 40px); 
 }
 }
@@ -42,7 +42,7 @@ article > * {
 		background-color: white;
 	}
 	.index-item {
-		width: 100vw;
+		width: 90vw;
 		box-shadow: none;
 		border: none;
 	}
